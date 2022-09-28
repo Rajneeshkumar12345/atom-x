@@ -5,12 +5,14 @@ const portfolio = () => {
     <div>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-   
-        <img src="/portfolio.jpg" height="600px" width="auto" style={{objectFit:"fill" }} padding="50px" class="card-img-top" alt="image"/>
-        <h2 style={{marginLeft:"355px", marginTop:"30px", marginBottom:"20px"}}>Some of the projects which we have delivered</h2>
+         <div className="image" style={{textAlign:"centre", width:"50rem",margin:"auto", marginTop:"30px" }} >
+         <img src="/portfolio.jpg" height="450px" width="auto"  class="card-img-top" alt="image"/>
+         </div>
+     
+        <h2 style={{textAlign:"centre", width:"42rem", margin:"auto", marginTop:"30px", marginBottom:"20px"}}>Some of the projects which we have delivered</h2>
         <div class="card-body">
 
-          <div class="card"  style={{marginLeft:"22rem", height:"100px", width:"40rem"}}>
+          <div class="card"  style={{textAlign:"centre", width:"38rem", margin:"auto", height:"100px"}}>
             <img src="/startup.png"   class="card-img-top" alt="image"/>
             <div class="card-body">
               <h5 class="card-title">Atom</h5>

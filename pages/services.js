@@ -7,8 +7,8 @@ const services = () => {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    
         <img src="/our_services.jpg" height="500px" width="auto" style={{objectFit:"cover" }} padding="50px" class="card-img-top" alt="..."/>
-        <div class="card-body">
-            <div class="card-text"  style={{marginLeft:"230px", marginRight:"230px", marginTop:"50px", fontFamily:"sans-serif", fontSize:"20px"}} >
+        <div class="card-body" style={{textAlign:"centre", width:"42rem", margin:"auto"}}>
+            <div class="card-text"  style={{ marginTop:"50px", fontFamily:"sans-serif", fontSize:"20px"}} >
             <p>At AtomX,we offer best user-centric tech solutions. We thrive to create solutions that have top notch UI/UX designs and software development standards. We do this because of our love for startups. </p>
                     <br></br>
                     <p>We can help any early stage founders with below points :-</p>
@@ -17,7 +17,7 @@ const services = () => {
           </div>
 
 
-            <div className="quality" style={{marginLeft:"222px"}}>
+            <div className="quality" style={{textAlign:"centre", width:"43rem", margin:"auto"}}>
             <div class="m-4">
                 <div class="d-flex">
                     <div class="flex-shrink-0">
