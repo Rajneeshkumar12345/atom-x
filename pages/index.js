@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
 
-        <p className={styles.description}>
+        <p className={styles.description} style={{marginTop:"20px"}}>
         Delivering affordable tech for early stage startups
         </p>
 
@@ -29,7 +29,7 @@ export default function Home() {
             <p>Read more ...</p>
            </a>
 
-          <a href="/services" className={styles.card} style={{height:"270px"}}>
+          <a href="/services" className={styles.card} style={{height:"268px"}}>
             <h2>Our Services &rarr;</h2>
             <p>We provide almost all the services that will launch your next big thing.</p>
             <br></br>
@@ -50,7 +50,7 @@ export default function Home() {
 
           <a
             href="https://forms.gle/KtNVJm16mHx8bZSh7"
-            className={styles.card} style={{height:"270px"}}
+            className={styles.card} style={{height:"268px"}}
           >
             <h2>Contact us &rarr;</h2>
             <p>
