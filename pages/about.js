@@ -1,11 +1,11 @@
 import React from 'react'
-//import Image from 'next/image'
+
 const about = () => {
   return (
     <div>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        {/* <div class="card mb-3"> */}
+
             <img src="/About1.jpg" height="500px" width="auto" style={{objectFit:"cover" }} padding="50px" class="card-img-top" alt="..."/>
             <div class="card-body" style={{textAlign:"centre", width:"42rem", margin:"auto"}}>
                 <div class="card-text"  style={{textAlign:"centre", marginTop:"50px", fontFamily:"sans-serif", fontSize:"20px"}} >
@@ -16,7 +16,7 @@ const about = () => {
                     <p>We help all the entrepreneurs with their 1st version of tech at a very affordable rate so that they can launch their MVP easily and can have initial traction.</p>
               </div>
                </div>
-     {/* </div> */}
+    
     </div>
   )
 }
