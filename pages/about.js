@@ -18,8 +18,6 @@ const about = () => {
                     <p>We help all the entrepreneurs with their 1st version of tech at a very affordable rate so that they can launch their MVP easily and can have initial traction.</p>
               </div>
                </div>
-               {/* height="450px"  width="100%" object-fit="cover"  */}
-
     </div>
   )
 }

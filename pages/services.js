@@ -80,11 +80,6 @@ const services = () => {
             </div>
         </div>
             </div>
-           
-
-        
-
-
 </div>
   )
 }
