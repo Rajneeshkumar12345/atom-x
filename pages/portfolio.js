@@ -5,8 +5,8 @@ const portfolio = () => {
     <div>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-         <div className="image" style={{textAlign:"centre", width:"50rem",margin:"auto", marginTop:"30px" }} >
-         <img src="/portfolio.jpg" height="450px" width="auto"  class="card-img-top" alt="image"/>
+         <div className="image"  style={{textAlign:"centre", width:"auto", minWidth:"42rem",margin:"auto"}} >
+         <img src="/portfolio.jpg" height="550px" width="auto"  class="card-img-top" alt="image"/>
          </div>
      
         <h2 style={{textAlign:"centre", width:"42rem", margin:"auto", marginTop:"30px", marginBottom:"20px"}}>Some of the projects which we have delivered</h2>

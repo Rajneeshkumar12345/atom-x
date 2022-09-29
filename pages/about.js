@@ -5,8 +5,8 @@ const about = () => {
     <div>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <div class="image" style={{textAlign:"centre", width:"50rem",margin:"auto", marginTop:"30px", borderRadius:"50px"}}>
-        <img src="/About1.jpg"  height="450px"  width="100%" object-fit="cover"  class="card-img-top" alt="image"/>
+        <div class="image" style={{textAlign:"centre", width:"auto", minWidth:"42rem",margin:"auto"}}>
+        <img src="/About1.jpg"  height="550px"  width="100%" object-fit="cover"  class="card-img-top" alt="image"/>
         </div>
            
             <div class="body" style={{textAlign:"centre", width:"42rem", margin:"auto"}}>
